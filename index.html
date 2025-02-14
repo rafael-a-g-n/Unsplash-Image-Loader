@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fetch Images</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div id="app">
+    <div class="header">
+      <h1>Image Gallery</h1>
+      <input type="text" id="search-input" placeholder="Search images...">
+    </div>
+    <div id="image-container"></div>
+
+    <div id="lightbox" class="lightbox">
+      <span class="close-button">&times;</span>
+      <img id="lightbox-image" class="lightbox-image" src="" alt="Enlarged Image">
+    </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
