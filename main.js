@@ -1,5 +1,3 @@
-import './style.css';
-
 const imageContainer = document.getElementById('image-container');
 const searchInput = document.getElementById('search-input');
 const lightbox = document.getElementById('lightbox');
